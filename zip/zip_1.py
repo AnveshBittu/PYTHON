@@ -54,13 +54,21 @@
 
 
 
-data={}
-res=input(f"if you want to processed yes 1 or exit 2")
+# data={}
+# res=input(f"if you want to processed yes 1 or exit 2")
 
-if res==1:
-    name=input('enter the name: ')
-    price=eval(input('enter the number: '))
-    data[name]=price
-if res == 2:
-    break
-print(data)
+# if res==1:
+#     name=input('enter the name: ')
+#     price=eval(input('enter the number: '))
+#     data[name]=price
+# if res == 2:
+#     break
+# print(data)
+
+
+
+names=['anvesh','bittu']
+num=[111,222]
+res=dict(zip(names,num))
+print(res)
+
